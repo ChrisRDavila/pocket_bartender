@@ -1,16 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Project Name</title>
-</head>
 <html lang="en-US">
-<head>
-</head>
-<body>
-  <div>Hello world!</div>
-  <img src="./assets/images/this-is-an-example.jpg" alt="example!"/>
-</body>
-</html>
+  <head>
+    <title>Spoonacular Food Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="menuBarDiv">
+        <h1>Spoonacular Food Finder</h1>
+        <p>Find new meals!</p>
+      </div>
 
+      <div id="contentDiv">
+        <pre>
+        examples:
+        chicken
+        beef
+        </pre>
+        <form>
+          <label for="keyword"
+            >Enter a keyword or phrase to search for meals:</label>
+          <input id="keyword" type="text" name="keyword" />
+          <button type="submit" class="btn-success" id="submitSearch">Find a meal! </button>
+        </form>
+      </div>
 
+      <div id="showRecipesDiv"></div>
+
+      <div id="resultsDiv">
+        <p id="showResponse"></p>
+        <a id="recipeAnchor"></a>
+      </div>
+    </div>
+  </body>
 </html>
