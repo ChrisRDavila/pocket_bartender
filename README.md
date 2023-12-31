@@ -1,4 +1,4 @@
-# Poclet Bartender
+# Pocket Bartender
 
 #### use of free API to see ingredients
 
