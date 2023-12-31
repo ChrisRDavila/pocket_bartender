@@ -1,8 +1,8 @@
-# (Application Name)
+# Poclet Bartender
 
-#### (Brief Description of Application)
+#### use of free API to see ingredients
 
-#### By (Your Name Here)
+#### By Christopher Davila
 
 ## Technologies Used
 
@@ -15,6 +15,8 @@
 
 
 ## Description
+
+Makes API call to bartending API to show ingredients to drinks
 
 ## Setup/Installation Requirements
 
